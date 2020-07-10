@@ -91,7 +91,7 @@ For parallel computing, using a programming model instead of a language is commo
    * [Value-level (contrast: Function-level)](#value-level)
 <!--te-->
 
-# Contribution Guide
+# Contribution guidelines
 - TBA
 
 # References
