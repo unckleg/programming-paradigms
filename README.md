@@ -19,10 +19,10 @@ For parallel computing, using a programming model instead of a language is commo
 
 # Programming paradigms
 <!--ts-->
-   * [Action](#action-language.md)
-   * [Agent-oriented](#agent-oriented.md)
-   * [Array-oriented](#array-oriented.md)
-   * [Automata-based](#automata-based.md)
+   * [Action](action-language.md)
+   * [Agent-oriented](agent-oriented.md)
+   * [Array-oriented](array-oriented.md)
+   * [Automata-based](automata-based.md)
    * [Concurrent computing](#concurrent-computing)
      * [Relativistic programming](#relativistic-programming)
    * [Data-driven](#data-driven)
