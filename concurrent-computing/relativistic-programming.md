@@ -1,0 +1,5 @@
+Relativistic programming
+============
+Relativistic programming (RP) is a style of concurrent programming where instead of trying to avoid conflicts between readers and writers (or writers and writers in some cases) the algorithm is designed to tolerate them and get a correct result regardless of the order of events. Also, relativistic programming algorithms are designed to work without the presences of a global order of events. That is, there may be some cases where one thread sees two events in a different order than another thread (hence the term relativistic because in Einstein's theory of special relativity the order of events is not always the same to different viewers).
+
+Relativistic programming provides advantages in performance compared to other concurrency paradigms because it does not require one thread to wait for another nearly as often. Because of this, forms of it (Read-Copy-Update for instance) are now used extensively in the Linux kernel (over 9,000 times as of March 2014 and has grown from nothing to 8% of all locking primitives in about a decade).
